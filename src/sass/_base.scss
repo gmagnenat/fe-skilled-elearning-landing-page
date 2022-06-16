@@ -1,0 +1,54 @@
+:root {
+	--color-primary: #f74780;
+	--color-dark-blue: #13183f;
+	--color-mid-gray: #83869a;
+	--color-dark-purple: #666ca3;
+	--color-white: #fff;
+
+	--heading-l: 4rem;
+	--heading-m: 3.2rem;
+	--heading-m-mobile: 2.4rem;
+	--heading-s: 2.4rem;
+	--heading-s-mobile: 2rem;
+	--body: 1.8rem;
+	--body-mobile: 1.6rem;
+
+	--max-width: 1110px;
+
+	--primary-gradient: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+	--secondary-gradient: linear-gradient(180deg, #4851ff -54.32%, #f02aa6 100%);
+	--secondary-gradient--hover: linear-gradient(
+			0deg,
+			rgba(255, 255, 255, 0.5),
+			rgba(255, 255, 255, 0.5)
+		),
+		linear-gradient(180deg, #4851ff -54.32%, #f02aa6 100%);
+}
+
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+html {
+	box-sizing: border-box;
+	font-size: 62.5%;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	background: linear-gradient(180deg, #ffffff 0%, #f0f1ff 100%);
+	font-size: var(--body-mobile);
+	line-height: 26px;
+	font-weight: 500;
+	color: var(--color-mid-gray);
+}
+
+h1,
+h2,
+h3 {
+	color: var(--color-dark-blue);
+}
