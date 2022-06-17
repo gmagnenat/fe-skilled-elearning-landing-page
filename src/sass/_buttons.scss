@@ -15,6 +15,10 @@
 	&:hover {
 		background-color: var(--color-dark-purple);
 	}
+
+	@media screen and (max-whidth: 768px) {
+		padding: 1rem 2.4rem;
+	}
 }
 
 .button-link--2 {

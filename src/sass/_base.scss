@@ -1,10 +1,12 @@
 :root {
 	--color-primary: #f74780;
+	--color-pale-pink: #ffa7c3;
 	--color-dark-blue: #13183f;
 	--color-mid-gray: #83869a;
 	--color-dark-purple: #666ca3;
 	--color-white: #fff;
 
+	--heading-xl: 5.6rem;
 	--heading-l: 4rem;
 	--heading-m: 3.2rem;
 	--heading-m-mobile: 2.4rem;
@@ -45,6 +47,12 @@ body {
 	line-height: 26px;
 	font-weight: 500;
 	color: var(--color-mid-gray);
+
+	@media screen and (min-width: 48em) {
+		font-size: var(--body);
+		line-height: 28px;
+		margin: 0 auto;
+	}
 }
 
 h1,
