@@ -87,7 +87,6 @@
 
 	&__sub {
 		margin-top: 2.6rem;
-		margin-bottom: 2.6rem;
 		letter-spacing: 0.5px;
 		max-width: 85%;
 	}
@@ -127,21 +126,24 @@
 	}
 
 	@media screen and (min-width: 70em) {
-		margin-top: -28rem;
-		grid-template-columns: 50% 1fr;
+		margin-top: -25.5rem;
+		grid-template-columns: 51% 1fr;
 
 		&__content {
 			margin-left: calc(100vw / 2 - 1110px / 2);
 			padding: 0;
+			margin-top: 22rem;
 		}
 
 		&__heading {
 			font-size: var(--heading-xl);
 			line-height: 70px;
+			letter-spacing: 0.8px;
 		}
 
 		&__sub {
 			max-width: 80%;
+			margin-bottom: 4.2rem;
 		}
 	}
 }

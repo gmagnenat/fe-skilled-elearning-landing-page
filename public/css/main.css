@@ -183,7 +183,6 @@ h3 {
 }
 .hero__sub {
   margin-top: 2.6rem;
-  margin-bottom: 2.6rem;
   letter-spacing: 0.5px;
   max-width: 85%;
 }
@@ -216,19 +215,22 @@ h3 {
 }
 @media screen and (min-width: 70em) {
   .hero {
-    margin-top: -28rem;
-    grid-template-columns: 50% 1fr;
+    margin-top: -25.5rem;
+    grid-template-columns: 51% 1fr;
   }
   .hero__content {
     margin-left: calc(50vw - 555px);
     padding: 0;
+    margin-top: 22rem;
   }
   .hero__heading {
     font-size: var(--heading-xl);
     line-height: 70px;
+    letter-spacing: 0.8px;
   }
   .hero__sub {
     max-width: 80%;
+    margin-bottom: 4.2rem;
   }
 }
 
