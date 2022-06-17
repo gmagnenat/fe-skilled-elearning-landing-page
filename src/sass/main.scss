@@ -25,6 +25,7 @@
 
 	@media (min-width: 48em) {
 		grid-template-columns: 1fr 1fr;
+		margin-top: 6rem;
 	}
 
 	@media (min-width: 70em) {
@@ -187,6 +188,12 @@
 			cursor: pointer;
 		}
 	}
+
+	@media screen and (min-width: 48em) {
+		&__heading {
+			font-size: var(--heading-s);
+		}
+	}
 }
 
 .intro {
@@ -201,8 +208,13 @@
 		color: var(--color-white);
 	}
 
-	@media screen and (min-width: 768px) {
+	@media screen and (min-width: 48em) {
 		padding-top: 6.4rem;
+
+		&__heading {
+			max-width: 80%;
+			font-size: var(--heading-m);
+		}
 	}
 }
 

@@ -124,6 +124,7 @@ h3 {
 @media (min-width: 48em) {
   .content {
     grid-template-columns: 1fr 1fr;
+    margin-top: 6rem;
   }
 }
 @media (min-width: 70em) {
@@ -269,6 +270,11 @@ h3 {
   color: var(--color-pale-pink);
   cursor: pointer;
 }
+@media screen and (min-width: 48em) {
+  .card__heading {
+    font-size: var(--heading-s);
+  }
+}
 
 .intro {
   background: var(--primary-gradient);
@@ -281,9 +287,13 @@ h3 {
   font-weight: 800;
   color: var(--color-white);
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 48em) {
   .intro {
     padding-top: 6.4rem;
+  }
+  .intro__heading {
+    max-width: 80%;
+    font-size: var(--heading-m);
   }
 }
 
