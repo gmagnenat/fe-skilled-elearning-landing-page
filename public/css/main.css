@@ -118,13 +118,14 @@ h3 {
 .content {
   display: grid;
   grid-template-columns: 1fr;
-  grid-gap: 4rem;
   margin-bottom: 14rem;
 }
 @media (min-width: 48em) {
   .content {
     grid-template-columns: 1fr 1fr;
     margin-top: 6rem;
+    column-gap: 4rem;
+    row-gap: 8rem;
   }
 }
 @media (min-width: 70em) {
@@ -255,8 +256,9 @@ h3 {
   left: 2.5rem;
 }
 .card__text {
-  margin-top: 1.6rem;
+  margin-top: 2.2rem;
   margin-bottom: 2.4rem;
+  letter-spacing: 0.8px;
 }
 .card__link {
   text-decoration: none;
@@ -283,7 +285,7 @@ h3 {
 }
 .intro__heading {
   font-size: var(--heading-m-mobile);
-  line-height: 32px;
+  line-height: 38px;
   font-weight: 800;
   color: var(--color-white);
 }

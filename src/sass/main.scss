@@ -19,13 +19,14 @@
 	display: grid;
 
 	grid-template-columns: 1fr;
-	grid-gap: 4rem;
 
 	margin-bottom: 14rem;
 
 	@media (min-width: 48em) {
 		grid-template-columns: 1fr 1fr;
 		margin-top: 6rem;
+		column-gap: 4rem;
+		row-gap: 8rem;
 	}
 
 	@media (min-width: 70em) {
@@ -171,8 +172,9 @@
 	}
 
 	&__text {
-		margin-top: 1.6rem;
+		margin-top: 2.2rem;
 		margin-bottom: 2.4rem;
+		letter-spacing: 0.8px;
 	}
 
 	&__link {
@@ -203,7 +205,7 @@
 
 	&__heading {
 		font-size: var(--heading-m-mobile);
-		line-height: 32px;
+		line-height: 38px;
 		font-weight: 800;
 		color: var(--color-white);
 	}
